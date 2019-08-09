@@ -1,0 +1,6 @@
+<!--pages/mb02/mb02.wxml-->
+<view class="top">
+  <button type="primary" bindtap="addMall">添加商品</button>
+</view>
+<button type="primary" bindtap="adddata">添加商品2</button>
+<button>展示商品</button>

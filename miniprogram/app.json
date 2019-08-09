@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/mb01/mb01",
+    "pages/mb02/mb02",
+    "pages/mb03/mb03",
+    "pages/mb04/mb04",
+    "pages/mb05/mb05",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "luckin coffee",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f0145a",
+    "navigationBarTitleText": "yiyi商城"
+  },
+  "sitemapLocation": "sitemap.json","tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/mb01/mb01",
+      "text": "首页",
+      "iconPath": "images/tubiao/sy0.png",
+      "selectedIconPath": "images/tubiao/sy1.png"
+    },
+    {
+      "pagePath": "pages/mb02/mb02",
+      "text": "菜单",
+      "iconPath": "images/tubiao/cd0.png",
+      "selectedIconPath": "images/tubiao/cd1.png"
+    },
+    {
+      "pagePath": "pages/mb03/mb03",
+      "text": "订单",
+      "iconPath": "images/tubiao/dd0.png",
+      "selectedIconPath": "images/tubiao/dd1.png"
+    },
+    {
+      "pagePath": "pages/mb04/mb04",
+      "text": "购物车",
+      "iconPath": "images/tubiao/gwc0.png",
+      "selectedIconPath": "images/tubiao/gwc1.png"
+    },
+    {
+      "pagePath": "pages/mb05/mb05",
+      "text": "我的",
+      "iconPath": "images/tubiao/wd0.png",
+      "selectedIconPath": "images/tubiao/wd1.png"
+    }
+    ]
+  }
+}

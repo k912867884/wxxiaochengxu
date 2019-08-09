@@ -1,0 +1,7 @@
+/* pages/mb02/mb02.wxss */
+.top {
+  display:flex;
+  height:500rpx;
+  align-items:center;
+  background:rgba(120,120,120,0.5)
+}

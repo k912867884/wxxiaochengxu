@@ -1,0 +1,34 @@
+<!--pages/mb01/mb01.wxml-->
+<view class="zy">
+<!-- 轮播图 -->
+  <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true'
+       interval='5000' duration='1000' circular='true'>
+      <block wx:for="{{bnrUrl}}" wx:key="index">
+      <swiper-item>
+        <image src='{{item.url}}' class='u-img-slide'
+        ></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 商品列表 -->
+  <view class="list">
+    <text>商品列表</text>
+    <view wx:for="{{list}}" id="{{item._id}}" wx:key="index" class="lists" bindtap="toDetail">
+      <image lazy-load="true" src="{{item.img}}" class="my_img"></image>
+      <!-- 标题和标签 -->
+      <view>
+      <!-- 标题 -->
+       <view>{{item.title}}</view>
+       <!-- 标签 -->
+       <view class="label">
+        <text wx:for="{{item.label}}" wx:key="index" class="labelren">{{item}}</text>
+       </view>
+      </view>
+     <!-- 价格 -->
+       <view>
+          <text class="my_price">￥{{item.price}}</text>
+          <image src="../../images/tubiao/gwc1.png" class="img_gwc"></image>
+       </view>
+    </view>
+  </view>
+</view>

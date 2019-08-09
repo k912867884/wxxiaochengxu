@@ -1,0 +1,55 @@
+/* pages/mb01/mb01.wxss */
+/* 主页 */
+/* 轮播图 */
+.u-wrp-bnr {
+  width: 100%;
+  height: 400rpx;
+  display: block;
+  position: relative;
+  background: #f0f0f0;
+}
+.u-img-slide {
+  width: 100%;
+  height: inherit;
+}
+/* 商品列表 */
+.list{
+  background:rgba(122,122,122,0.3);
+}
+/* 每个商品 */
+.lists{
+  display:flex;
+  flex-direction:row;
+}
+/* 图片 */
+.my_img{
+  width:250rpx;
+  height:250rpx;
+}
+/* 标签 */
+.label{
+  width:300rpx;
+}
+.labelren{
+  display:inline-block;
+  color:#f0f0f0;
+  font-size:27rpx;
+  padding:10rpx;
+  background:rgba(0,0,255,0.3);
+  border-radius:15rpx;
+  margin-right:10rpx;
+}
+/* 价格和购物车 */
+.my_price{
+  display:block;
+  margin:20rpx 0;
+  color:red;
+  font-weight:bold;
+}
+.img_gwc{
+  display:block;
+  width:100rpx;
+  height:100rpx;
+}
+
+

@@ -1,0 +1,11 @@
+<!--pages/mb05/mb05.wxml-->
+<view class="yetou">
+  <block class="left">
+   <image class="my_img" src="{{userInfo.avatarUrl}}"></image>
+  </block>
+  <!-- 登录按钮 -->
+  <button wx:if="{{!userInfo.openid}}" class="denglu" open-type='getUserInfo' bindgetuserinfo='getUserInfo'>登录</button>
+</view>
+
+
+
